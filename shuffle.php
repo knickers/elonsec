@@ -26,6 +26,7 @@
 	data-clipboard-text="<?= "$url/$hash" ?>"
 	title="Share"
 	alt="Share"
+	class="mr-4"
 >
 
 <button class="btn btn-sm btn-outline-primary ml-4"
