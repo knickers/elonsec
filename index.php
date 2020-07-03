@@ -9,28 +9,19 @@
 		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-		<title><?= $s ?> Elon's <?= $c ?> | Elon's Three Letter Acronym</title>
+		<title><?= $s ?> Elon's <?= $c ?></title>
 
-		<meta name="description" content="Elon Musk's SEC random phrase generator">
+		<meta name="description" content="Elon Musk's three letter acronym random phrase generator">
 		<!-- Twitter Card data -->
 		<meta name="twitter:card" content="summary">
-		<meta name="twitter:title" content="<?= $s ?> Elon's <?= $c ?> | Elon's Three Letter Acronym">
+		<meta name="twitter:title" content="<?= $s ?> Elon's <?= $c ?>">
 		<meta name="twitter:description" content="Elon Musk's three letter acronym random phrase generator">
-		<!--
-		<meta name="twitter:site" content="@publisher_handle">
-		<meta name="twitter:creator" content="@author_handle">
-		<meta name="twitter:image" content="http://www.example.com/image.jpg">
-		-->
 		<!-- Open Graph data -->
-		<meta property="og:title" content="<?= $s ?> Elon's <?= $c ?> | Elon's Three Letter Acronym">
+		<meta property="og:title" content="<?= $s ?> Elon's <?= $c ?>">
 		<meta property="og:type" content="page">
 		<meta property="og:url" content="<?= "$url/$hash" ?>">
 		<meta property="og:description" content="Elon Musk's three letter acronym random phrase generator">
 		<meta property="og:site_name" content="Elon's Three Letter Acronym">
-		<!--
-		<meta property="og:image" content="http://example.com/image.jpg">
-		<meta property="fb:admins" content="Facebook numeric ID">
-		-->
 
 		<style>
 			html, body, .container, .row {
