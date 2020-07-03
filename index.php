@@ -26,7 +26,7 @@
 							SEC, three letter acronym, middle word is Elon’s
 						</p>
 						&mdash; Elon Musk (@elonmusk)
-						<a href="https://twitter.com/elonmusk/status/1278764736876773383?ref_src=twsrc%5Etfw">
+						<a href="https://twitter.com/elonmusk/status/1278764736876773383">
 							July 2, 2020
 						</a>
 					</blockquote>
