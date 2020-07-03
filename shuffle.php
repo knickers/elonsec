@@ -17,8 +17,8 @@
 	style="width:auto;"
 >
 
-<div class="alert alert-success alert-sm d-none mr-4" role="alert">
-	Link copied to clipboard
+<div class="alert alert-success alert-sm d-none mr-2" role="alert">
+	Copied to clipboard
 </div>
 
 <img src="/share.svg"
