@@ -1,7 +1,7 @@
 <?php
 
-if (!empty($_SERVER['PATH_INFO'])) {
-	$hash = preg_replace('/\W/', '', $_SERVER['PATH_INFO']);
+if (!empty($_SERVER['REQUEST_URI'])) {
+	$hash = preg_replace('/\W/', '', $_SERVER['REQUEST_URI']);
 	if ($hash && file_exists("hashes/$hash")) {
 		$words = explode("\n", file_get_contents("hashes/$hash"));
 		if (!empty($words[0]) && !empty($words[1])) {
