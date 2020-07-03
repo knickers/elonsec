@@ -11,17 +11,25 @@
 
 		<title><?= $s ?> Elon's <?= $c ?></title>
 
+		<!-- Search Engine -->
 		<meta name="description" content="Elon Musk's three letter acronym random phrase generator">
-		<!-- Twitter Card data -->
+		<meta name="image" content="https://elonsec.club/elon-musk.jpg">
+		<!-- Schema.org for Google -->
+		<meta itemprop="name" content="<?= $s ?> Elon's <?= $c ?>">
+		<meta itemprop="description" content="Elon Musk's three letter acronym random phrase generator">
+		<meta itemprop="image" content="https://elonsec.club/elon-musk.jpg">
+		<!-- Twitter Card -->
 		<meta name="twitter:card" content="summary">
 		<meta name="twitter:title" content="<?= $s ?> Elon's <?= $c ?>">
 		<meta name="twitter:description" content="Elon Musk's three letter acronym random phrase generator">
-		<!-- Open Graph data -->
-		<meta property="og:title" content="<?= $s ?> Elon's <?= $c ?>">
-		<meta property="og:type" content="page">
-		<meta property="og:url" content="<?= "$url/$hash" ?>">
-		<meta property="og:description" content="Elon Musk's three letter acronym random phrase generator">
-		<meta property="og:site_name" content="Elon's Three Letter Acronym">
+		<meta name="twitter:image:src" content="<?= $url ?>/elon-musk.jpg">
+		<!-- Open Graph -->
+		<meta name="og:title" content="<?= $s ?> Elon's <?= $c ?>">
+		<meta name="og:type" content="website">
+		<meta name="og:url" content="<?= "$url/$hash" ?>">
+		<meta name="og:image" content="https://elonsec.club/elon-musk.jpg">
+		<meta name="og:description" content="Elon Musk's three letter acronym random phrase generator">
+		<meta name="og:site_name" content="Elon's Three Letter Acronym">
 
 		<style>
 			html, body, .container, .row {
