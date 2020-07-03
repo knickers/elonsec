@@ -1,8 +1,4 @@
-<?php
-	require_once 'get-words.php';
-	$url = 'http'.(isset($_SERVER['HTTPS'])&&$_SERVER['HTTPS']==='on'?'s':'');
-	$url .= '://'.$_SERVER['HTTP_HOST'];
-?>
+<?php require_once 'get-words.php' ?>
 
 <h2>
 	<?= $s ?> Elon's <?= $c ?>

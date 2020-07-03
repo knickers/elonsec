@@ -22,3 +22,6 @@ $hash = dechex(crc32("$s:$c"));
 if (!file_exists("hashes/$hash")) {
 	file_put_contents("hashes/$hash", "$s\n$c");
 }
+
+$url = 'http'.(isset($_SERVER['HTTPS'])&&$_SERVER['HTTPS']==='on'?'s':'');
+$url .= '://'.$_SERVER['HTTP_HOST'];
