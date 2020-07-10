@@ -42,6 +42,9 @@
 	<body class="text-center">
 		<div class="container">
 			<div class="row align-items-center">
+				<div class="col-12" id="shuffled">
+					<? include 'shuffle.php' ?>
+				</div>
 				<div class="col-12">
 					<blockquote class="twitter-tweet tw-align-center">
 						<p lang="en" dir="ltr">
@@ -53,9 +56,6 @@
 						</a>
 					</blockquote>
 					<br>
-				</div>
-				<div class="col-12" id="shuffled">
-					<? include 'shuffle.php' ?>
 				</div>
 			</div>
 		</div>
