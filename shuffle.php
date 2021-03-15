@@ -26,7 +26,9 @@
 >
 
 <button class="btn btn-sm btn-outline-primary ml-4"
-	onclick="jQuery('#shuffled').load('/shuffle.php')"
+	onclick="jQuery('#shuffled').load('/shuffle.php', function() {
+		document.title = jQuery(this).find('h2').text();
+	})"
 >
 	Refresh
 </button>
